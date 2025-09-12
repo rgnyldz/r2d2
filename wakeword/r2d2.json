@@ -1,6 +1,7 @@
 {
   "type": "micro",
   "wake_word": "r2d2",
+  "author": "rgnyldz",
   "model": "r2d2.tflite",
   "version": 1,
   "micro": {
