@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "r2d2",
   "model": "r2d2.tflite",
-  "version": 2,
+  "version": 1,
   "micro": {
     "probability_cutoff": 0.9,
     "feature_step_size": 10,
