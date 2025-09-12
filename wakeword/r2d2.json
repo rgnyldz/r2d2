@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "R2D2",
+  "wake_word": "r2d2",
   "model": "r2d2.tflite",
   "version": 2,
   "micro": {
