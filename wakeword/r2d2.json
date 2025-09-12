@@ -3,7 +3,7 @@
   "wake_word": "r2d2",
   "author": "rgnyldz",
   "model": "r2d2.tflite",
-  "version": 1,
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.9,
     "feature_step_size": 10,
