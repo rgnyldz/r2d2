@@ -1,9 +1,7 @@
 {
   "type": "micro",
-  "wake_word": "Kenobi",
-  "author": "Helvio Pedreschi",
-  "model": "kenobi.tflite",
-  "trained_languages": ["en"],
+  "wake_word": "R2D2",
+  "model": "r2d2.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.9,
