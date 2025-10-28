@@ -1,11 +1,10 @@
 {
-  "type": "micro_wake_word_model",
   "name": "R2D2",
   "version": 2,
   "wake_word": "r2d2",
   "author": "rgnyldz",
   "model_type": "tflite",
-  "model_uri": "https://raw.githubusercontent.com/rgnyldz/r2d2/main/wakeword/r2d2.tflite",
+  "model": "https://raw.githubusercontent.com/rgnyldz/r2d2/main/wakeword/r2d2.tflite",
   "probability_cutoff": 0.8,
   "frontend": {
     "type": "melspectrogram",
