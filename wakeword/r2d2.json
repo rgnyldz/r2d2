@@ -1,16 +1,19 @@
 {
-  "type": "micro",
+  "type": "micro_wake_word_model",
+  "name": "R2D2",
+  "version": 2,
   "wake_word": "r2d2",
   "author": "rgnyldz",
-  "website": "https://github.com/rgnyldz/r2d2",
-  "version": 2,
-  "model": "https://raw.githubusercontent.com/rgnyldz/r2d2/main/wakeword/r2d2.tflite",
-  "trained_languages": ["en"],
-  "micro": {
-    "probability_cutoff": 0.80,
-    "sliding_window_size": 5,
-    "feature_step_size": 10,
-    "tensor_arena_size": 200000
-  },
-  "minimum_esphome_version": "2024.7"
+  "model_type": "tflite",
+  "model_uri": "https://raw.githubusercontent.com/rgnyldz/r2d2/main/wakeword/r2d2.tflite",
+  "probability_cutoff": 0.8,
+  "frontend": {
+    "type": "melspectrogram",
+    "sample_rate": 16000,
+    "frame_length": 512,
+    "frame_step": 160,
+    "num_mel_bins": 40,
+    "lower_frequency": 20,
+    "upper_frequency": 4000
+  }
 }
