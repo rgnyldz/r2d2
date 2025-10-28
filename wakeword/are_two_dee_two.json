@@ -1,9 +1,9 @@
 {
   "type": "micro",
-  "wake_word": "r2d2",
-  "author": "mj.bream",
-  "website": "https://github.com/wsieber/MicroWakeWord-Trainer-Docker",
-  "model": "r2d2.tflite",
+  "wake_word": "are_two_dee_two",
+  "author": "j.bream",
+  "website": "https://github.com/wsieber/stuff",
+  "model": "are_two_dee_two.tflite",
   "trained_languages": [
     "en"
   ],
